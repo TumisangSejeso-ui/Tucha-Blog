@@ -1,52 +1,99 @@
 # Tumisang Sejeso | Digital Portfolio
 
-A personal portfolio and blog for Tumisang Sejeso, a Computer System Engineering student at Botswana School of Business Sciences, Botswana. It is built with plain HTML, CSS and JavaScript, so there is nothing to install.
+A personal portfolio and blog for **Tumisang Sejeso**, a Computer System Engineering student at Botswana School of Business Sciences, Botswana. Built using HTML, CSS, and JavaScript.
+
+## 🌐 Live Website
+
+**Portfolio website:**  
+https://tumisangsejeso-ui.github.io/Tucha-Blog/
+
+The website is hosted on **GitHub Pages** and can be accessed directly through the link above using any modern web browser. No installation or downloading is required.
+
+## 📍 Where to Find the Website
+
+- **Online access:** Visit the live portfolio using the website link above.
+- **Hosting platform:** GitHub Pages.
+- **Source code:** Stored in the GitHub repository associated with the Tucha-Blog project.
+- **Local access:** Download or clone the project repository and open `index.html` in a browser.
 
 ## Sections
 
-- **Home**: introduction and call to action
-- **About**: profile photo, personality and interests
-- **My Learning Journey**: Segopotso Primary, Ngwaketse Junior Secondary, Moshupa Senior Secondary and Botswana School of Business Sciences
-- **Reflection**: a short reflection on time management, study habits and growth mindset
-- **Skills**: system development, Microsoft Access and statistical analysis, plus study strategies
-- **Projects**: [Fitness App](https://fitness-app-mance.lovable.app) and [Aurent Lume](https://manceaobakwe146-code.github.io/My-Aurent-Lume-Website/)
-- **Journey (blog)**: group work reflection using Tuckman's five stages
-- **Apply**: CV (with print to PDF), cover letter and application email
-- **Contact** and footer
+- **Home:** Introduction and call to action.
+- **About:** Profile photo, personality, and interests.
+- **My Learning Journey:** Segopotso Primary School, Ngwaketse Junior Secondary School, Moshupa Senior Secondary School, and Botswana School of Business Sciences.
+- **Reflection:** Reflection on time management, study habits, and growth mindset.
+- **Skills:** System development, Microsoft Access, statistical analysis, and study strategies.
+- **Projects:** Fitness App and Aurent Lume.
+- **Journey (Blog):** Group work reflection using Tuckman's Five Stages of Group Development.
+- **Apply:** CV (print to PDF), cover letter, and application email.
+- **Contact:** Contact details and footer information.
 
-## Folder structure
+## Projects
 
-```
+- **Fitness App:** https://fitness-app-mance.lovable.app/
+- **Aurent Lume:** https://manceaobakwe146-code.github.io/My-Aurent-Lume-Website/
+
+## Folder Structure
+
+```text
 portfolio-site/
-├── index.html    page content
-├── style.css     design (glassmorphism, layout, animation)
-├── script.js     menu, scroll effects, tabs, copy and print buttons
-├── assets/       images used by the page
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│   └── images used by the website
 └── README.md
 ```
 
-## Run it
+## How to Run Locally
 
-1. Keep all files in the same folder structure shown above.
-2. Open `index.html` in any modern browser.
+1. Download or clone the project repository.
+2. Ensure all files remain in the same folder structure.
+3. Open `index.html` in a modern web browser.
+4. The portfolio will run without requiring installation.
 
-The Plus Jakarta Sans font loads from Google Fonts, so it needs an internet connection. Without one, the page uses a default sans-serif font.
+The Plus Jakarta Sans font is loaded from Google Fonts and requires an internet connection. If unavailable, the website uses a default sans-serif font.
 
-## Edit it
+## How to Edit the Website
 
-- **Contact details**: search `index.html` for `+267 78 777 846` and `bs-cse26-023@thuto.bac.ac.bw`.
-- **Cover letter**: replace `[Company Name]` and `[Company Address]` for each application.
-- **Colours**: change the variables at the top of `style.css` (`--or` is the accent colour, `--bg` the background).
-- **Images**: replace files in `assets/` and keep the same names, or update the paths in `index.html`.
-- **CV PDF**: open the Apply section, choose the CV tab, then click **Download / Print PDF** and select Save as PDF.
+- **Contact details:** Search `index.html` for `+267 78 777 846` and `bs-cse26-023@thuto.bac.ac.bw`.
+- **Cover letter:** Replace `[Company Name]` and `[Company Address]` when applying to different organisations.
+- **Colours:** Edit the variables at the top of `style.css`. `--or` controls the accent colour and `--bg` controls the background.
+- **Images:** Replace images in the `assets/` folder while keeping the same filenames, or update the image paths in `index.html`.
+- **CV PDF:** Open the Apply section, select the CV tab, click **Download / Print PDF**, and choose **Save as PDF**.
 
-## Publish it
+## How the Website Is Published
 
-Upload the folder to GitHub, then turn on GitHub Pages in the repository settings, or drag the folder onto a static host such as Netlify.
+The portfolio is published using **GitHub Pages**.
+
+To publish or update the website:
+
+1. Upload the project files to the GitHub repository.
+2. Open the repository's **Settings**.
+3. Navigate to **Pages**.
+4. Configure GitHub Pages to deploy from the appropriate branch.
+5. Save the configuration and wait for deployment.
+6. Access the published portfolio using:
+
+   https://tumisangsejeso-ui.github.io/Tucha-Blog/
+
+## Features
+
+- Responsive layout.
+- Glassmorphism design.
+- Animations and scroll effects.
+- Interactive navigation, tabs, and buttons.
+- Copy-to-clipboard functionality.
+- CV print-to-PDF functionality.
+- Reduced-motion accessibility support.
+- Mouse-based cursor glow, tilt, and magnetic button effects.
 
 ## Notes
 
-- Animations switch off for visitors who have reduced motion turned on in their device settings.
-- Cursor effects (glow, tilt, magnetic buttons) only run on devices with a mouse.
+- Animations are disabled for visitors who have reduced motion enabled in their device settings.
+- Cursor effects are available on devices with mouse input.
+- The website is built using plain HTML, CSS, and JavaScript.
+
+---
 
 © 2026 Tumisang Sejeso. All rights reserved.
